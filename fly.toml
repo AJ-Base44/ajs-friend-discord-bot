@@ -1,0 +1,10 @@
+app = "ajs-friend-discord-bot"
+primary_region = "lhr"
+
+[build]
+
+[env]
+  NODE_ENV = "production"
+
+[processes]
+  app = "node index.js"
